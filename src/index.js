@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import AppWrapper from './App';  // Use AppWrapper to handle routing
 import reportWebVitals from './reportWebVitals';
+// import './App.css'  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AppWrapper />  {/* Render AppWrapper to handle navigation */}
   </React.StrictMode>
 );
 

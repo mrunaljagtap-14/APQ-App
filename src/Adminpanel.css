@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+  }
+  
+  .App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .question-section {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .options-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+  }
+  
+  .options-table th,
+  .options-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .options-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .assessment-section {
+    margin-top: 10px;
+  }
+  
+  .assessment-heading {
+    font-weight: bold;
+    color: #00b368; /* Change color for headings */
+  }
+  
+  .recommendation-heading {
+    font-weight: bold;
+    color: #266ab4; /* Change color for headings */
+  }
+  
+  .assessment-section p,
+  .recommendation-section p {
+    color: #333; /* Change color for text */
+  }
+  
+  .weightage-input {
+    width: 60px;
+  }
+  
+  .navigation-buttons {
+    position: relative;
+    width: 100%;
+    height: 50px; /* Adjust height as needed */
+    margin-top: 20px; /* Space between form and buttons */
+  }
+  
+  .back-button, .next-button {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button {
+    left: 0; /* Aligns to the left */
+  }
+  
+  .next-button {
+    right: 0; /* Aligns to the right */
+  }
+  
+  .back-button:hover, .next-button:hover {
+    background-color: #0056b3;
+  }
+  
+ .question-title {
+    font-size: 1.0rem;         /* Adjusts the font size */
+    font-weight: bold;         /* Makes the text bold */
+    color: #333;               /* Sets the text color */
+    margin: 1rem 0;           /* Adds margin above and below */
+    line-height: 1.4;          /* Adjusts line height for readability */
+    padding: 0.5rem;           /* Adds padding around the text */
+    border-bottom: 2px solid #007bff; /* Adds a bottom border for emphasis */
+    text-align: left;
+  }
+  
+  .question-title:first-child {
+    margin-top: 0;            /* Removes top margin for the first question */
+  }
+  
